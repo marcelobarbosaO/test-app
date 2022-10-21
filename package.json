@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
+    "start": "npx solidarity && expo start --dev-client",
+    "android": "npx solidarity && expo run:android",
+    "ios": "npx solidarity && expo run:ios",
     "web": "expo start --web",
     "test": "jest",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
@@ -67,6 +67,8 @@
     "jest-expo": "^46.0.1",
     "prettier": "^2.7.1",
     "react-test-renderer": "^18.2.0",
+    "solidarity": "^3.0.4",
+    "solidarity-react-native": "^2.1.2",
     "typescript": "^4.6.3"
   },
   "private": true
