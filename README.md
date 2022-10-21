@@ -50,4 +50,5 @@ Read `.solidarity` file to more details...
 * Jest and Testing Library
 * Axios for http requests
 * React-navigation for routes
+* Husky for validation commit and push
 
